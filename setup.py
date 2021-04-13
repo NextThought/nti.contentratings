@@ -1,8 +1,7 @@
-from setuptools import setup
-from setuptools import find_packages
 import os
 
-version = '1.2.0'
+from setuptools import setup
+from setuptools import find_packages
 
 
 def read(*rnames):
@@ -20,7 +19,7 @@ description = read('README.rst') + '\n\n' + \
 
 setup(
     name='contentratings',
-    version=version,
+    version='1.2.0',
     description="A small Zope 3 package (which also works with Zope 2.10+ and Five) that allows you to attach ratings to content.",
     long_description=description,
     classifiers=[
