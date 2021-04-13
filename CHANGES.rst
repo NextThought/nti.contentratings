@@ -2,7 +2,7 @@
  Changelog
 ===========
 
-1.2.0 (2021-04-13)
+1.2.0 (unreleased)
 ==================
 
 - Fixed XSS vulnerability on rating action
